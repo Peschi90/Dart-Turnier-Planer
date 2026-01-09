@@ -1,17 +1,17 @@
-﻿## v0.1.14.5
--TESTING RELEASE
+﻿## v0.1.15.2
+### New Features
+- License Request Email Copy**: Users now receive a copy of the license request email at their provided email address
+- License Request Improvements**: Enhanced email sending reliability and user feedback
+- User Account handling and registration at dashboard.darts-tournament-planner.de
+- Possibility to Plan Tournaments over User Dashboard and sync them any time to Darts-Tournament Planner
+- Fetch all opened Tournaments from User Dashboard for your license
+- share license keys with different user Accounts to let other user acces Dashboard functionality and manage tournaments
+- Implement Live Ticker features for tournamnets.
+- Implement Online Tournament participants registration. 
 
-## v0.1.14.4
--TESTING RELEASE
-
-## v0.1.14.3
--TESTING RELEASE
-
-## v0.1.14.2
--TESTING RELEASE
-
-## v0.1.14.1
--TESTING RELEASE
+### Backend Improvements
+- change domain to Darts-Tournament-Planner.de
+- build new sync routines to get tournaments from user dashboard
 
 ## v0.1.14
 

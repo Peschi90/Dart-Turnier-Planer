@@ -1,4 +1,4 @@
-# 🎯 Dart Tournament Planner
+# 🎯 Darts Tournament Planner
 
 **[English](#english)** | **[Deutsch](#deutsch)**
 
@@ -25,6 +25,7 @@ A modern WPF application for managing dart tournaments with professional feature
 - **Auto-Save System**: Configurable automatic saving with adjustable intervals
 - **Professional Workflows**: Simplified tournament creation and management
 - **Bye System**: Automatic bye assignment for odd player counts
+- **Single Integration Path**: All external communication goes through Tournament Hub (no separate REST API)
 
 #### ⚡ **PowerScoring System** (NEW!)
 Intelligent player seeding based on performance data - perfect for fair tournament distribution!
@@ -184,15 +185,15 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 ### 📦 Installation
 
 #### Automatic Installation (Recommended)
-1. Download the latest `Setup-DartTournamentPlaner-v0.1.13.exe` from [Releases](https://github.com/Peschi90/Dart-Turnament-Planer/releases)
+1. Download the latest `Setup-DartsTournamentPlanner-v0.1.13.exe` from [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
 2. Run the installer (administrator rights may be required)
 3. Follow the installation wizard
 4. Start the application via desktop shortcut or start menu
 
 #### Manual Installation
-1. Download the latest ZIP archive from [Releases](https://github.com/Peschi90/Dart-Turnament-Planer/releases)
+1. Download the latest ZIP archive from [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
 2. Extract to your desired folder
-3. Run `DartTournamentPlaner.exe`
+3. Run `DartsTournamentPlanner.exe`
 
 > **Note**: The application automatically checks for updates on startup.
 
@@ -241,7 +242,7 @@ Intelligent player seeding based on performance data - perfect for fair tourname
 - **Snake Draft (🐍)**: 1-2-3-4-4-3-2-1 pattern
   - Zigzag distribution for balanced groups
   - Ideal for league-style tournaments
-- **Top-Heavy (🔝)**: Strongest players grouped first
+- **Top-Heavy (🔝)**: Strongest players first grouped
   - Group 1 gets strongest players, then Group 2, etc.
   - Good for tiered tournament structures
 - **Random (🎲)**: Random distribution
@@ -293,30 +294,6 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 ---
 
-### 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. **Fork** the repository
-2. **Clone** your fork locally
-3. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-4. **Make** your changes
-5. **Test** thoroughly
-6. **Commit** your changes (`git commit -m 'Add AmazingFeature'`)
-7. **Push** to your branch (`git push origin feature/AmazingFeature`)
-8. **Create** a Pull Request
-
-#### Areas for Contribution
-- **New Languages**: Support for additional languages via ILanguageProvider
-- **Print Features**: Extended print layouts and options
-- **Tournament Formats**: Additional tournament structures
-- **UI Improvements**: Enhanced usability features
-- **Bug Fixes**: Error fixes and stability improvements
-- **Documentation**: Help content and user guides
-- **PowerScoring**: Distribution algorithms and scoring rules
-
----
-
 ### 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
@@ -340,11 +317,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 📞 Contact & Links
 
-- **GitHub Repository**: [Peschi90/Dart-Turnament-Planer](https://github.com/Peschi90/Dart-Turnament-Planer)
-- **Releases**: [Latest Downloads](https://github.com/Peschi90/Dart-Turnament-Planer/releases)
-- **Issues**: [GitHub Issues](https://github.com/Peschi90/Dart-Turnament-Planer/issues)
-- **Developer**: [@Peschi90](https://github.com/Peschi90)
-- **Email**: m@peschi.info
+- **GitHub Repository**: [Peschi90/Darts-Tournament-Planner](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer)
+- **Releases**: [Latest Downloads](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
+- **Issues**: [GitHub Issues](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/issues)
+- **Entwickler**: [@Peschi90](https://github.com/Peschi90)
+- **E-Mail**: admin@darts-tournament-planner.de
 
 ---
 
@@ -375,6 +352,7 @@ Eine moderne WPF-Anwendung für die Verwaltung von Dart-Turnieren mit profession
 - **Auto-Save-System**: Konfigurierbare automatische Speicherung
 - **Professionelle Workflows**: Vereinfachte Turniererstellung und -verwaltung
 - **Bye-System**: Automatische Bye-Zuweisung bei ungerader Spieleranzahl
+- **Einheitlicher Integrationspfad**: Alle externen Anbindungen laufen über den Tournament Hub (keine separate REST-API)
 
 #### ⚡ **PowerScoring System** (NEU!)
 Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für faire Turnierverteilung!
@@ -534,15 +512,15 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 ### 📦 Installation
 
 #### Automatische Installation (Empfohlen)
-1. Laden Sie die neueste `Setup-DartTournamentPlaner-v0.1.13.exe` von [Releases](https://github.com/Peschi90/Dart-Turnament-Planer/releases) herunter
+1. Laden Sie die neueste `Setup-DartsTournamentPlanner-v0.1.13.exe` von [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases) herunter
 2. Führen Sie das Installationsprogramm aus (Administrator-Rechte können erforderlich sein)
 3. Folgen Sie dem Installations-Assistenten
 4. Starten Sie die Anwendung über die Desktop-Verknüpfung oder das Startmenü
 
 #### Manuelle Installation
-1. Laden Sie das neueste ZIP-Archiv von [Releases](https://github.com/Peschi90/Dart-Turnament-Planer/releases) herunter
+1. Laden Sie das neueste ZIP-Archiv von [Releases](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases) herunter
 2. Extrahieren Sie es in Ihren gewünschten Ordner
-3. Führen Sie `DartTournamentPlaner.exe` aus
+3. Führen Sie `DartsTournamentPlanner.exe` aus
 
 > **Hinweis**: Die Anwendung prüft beim Start automatisch auf Updates.
 
@@ -616,59 +594,9 @@ Intelligente Spieler-Einteilung basierend auf Leistungsdaten - perfekt für fair
 
 ---
 
-### 🛠️ Entwicklung
-
-#### Technischer Stack
-- **Framework**: .NET 9.0 mit C# 13.0
-- **UI Framework**: WPF (Windows Presentation Foundation)
-- **Architektur**: MVVM-Pattern mit Service-orientiertem Design
-- **Abhängigkeiten**: 
-  - `Newtonsoft.Json` (13.0.3) für Datenserialisierung
-  - `Microsoft.VisualBasic` (10.3.0) für Input-Dialoge
-  - `QRCoder` (1.6.0) für QR-Code-Generierung
-  - `System.Management` (9.0.0) für Systeminformationen
-
-### 📈 Versionshistorie
-
-Siehe [CHANGELOG.md](CHANGELOG.md) für detaillierte Versionshistorie.
-
-**Aktuelle Version: v0.1.13**
-- ⚡ PowerScoring-System mit intelligentem Spieler-Seeding
-- 🎨 Vollständige Dark-Mode-Unterstützung für alle Komponenten
-- 🆔 Custom Tournament-ID mit Persistenz
-- 🔄 Verbesserte WebSocket-Wiederverbindung
-- 📊 Live-Match-Updates mit detaillierten Statistiken
-- 🌍 500+ Übersetzungsschlüssel (DE/EN)
-
----
-
-### 🤝 Beitragen
-
-Wir begrüßen Beiträge! So können Sie helfen:
-
-1. **Fork** das Repository
-2. **Klonen** Sie Ihren Fork lokal
-3. **Erstellen** Sie einen Feature-Branch (`git checkout -b feature/AmazingFeature`)
-4. **Machen** Sie Ihre Änderungen
-5. **Testen** Sie gründlich
-6. **Committen** Sie Ihre Änderungen (`git commit -m 'Add AmazingFeature'`)
-7. **Pushen** Sie zu Ihrem Branch (`git push origin feature/AmazingFeature`)
-8. **Erstellen** Sie einen Pull Request
-
-#### Bereiche für Beiträge
-- **Neue Sprachen**: Support für zusätzliche Sprachen über ILanguageProvider
-- **Druck-Features**: Erweiterte Druck-Layouts und Optionen
-- **Turnier-Formate**: Zusätzliche Turnier-Strukturen
-- **UI-Verbesserungen**: Erweiterte Benutzerfreundlichkeits-Features
-- **Bug-Fixes**: Fehlerbehebung und Stabilitätsverbesserungen
-- **Dokumentation**: Hilfe-Inhalte und Benutzerhandbücher
-- **PowerScoring**: Verteilungs-Algorithmen und Scoring-Regeln
-
----
-
 ### 📄 Lizenz
 
-Dieses Projekt ist unter der **MIT-Lizenz** lizenziert - siehe die [LICENSE](LICENSE) Datei für Details.
+Dieses Projekt ist unter einer Proprietären Softwarelizenz (Freemium) lizenziert - siehe die [LICENSE](LICENSE) Datei für Details.
 
 ---
 
@@ -689,11 +617,11 @@ Dieses Projekt ist unter der **MIT-Lizenz** lizenziert - siehe die [LICENSE](LIC
 
 ### 📞 Kontakt & Links
 
-- **GitHub Repository**: [Peschi90/Dart-Turnament-Planer](https://github.com/Peschi90/Dart-Turnament-Planer)
-- **Releases**: [Neueste Downloads](https://github.com/Peschi90/Dart-Turnament-Planer/releases)
-- **Issues**: [GitHub Issues](https://github.com/Peschi90/Dart-Turnament-Planer/issues)
+- **GitHub Repository**: [Peschi90/Darts-Tournament-Planner](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer)
+- **Releases**: [Neueste Downloads](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/releases)
+- **Issues**: [GitHub Issues](https://github.com/Peschi90/Darts-Tournament-Planner---Dart-Turnier-Planer/issues)
 - **Entwickler**: [@Peschi90](https://github.com/Peschi90)
-- **E-Mail**: m@peschi.info
+- **E-Mail**: admin@darts-tournament-planner.de
 
 ---
 
