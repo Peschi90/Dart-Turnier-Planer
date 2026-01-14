@@ -1,4 +1,9 @@
-﻿## v0.1.17
+﻿## v0.1.18
+### bugfix
+- fixed tournament synchronisation bug
+
+
+## v0.1.17
 ### bugfix
 - fixed tournament synchronisation bug
 - fixed user id handling and possibility to add a club  for each user
